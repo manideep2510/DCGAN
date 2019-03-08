@@ -27,7 +27,7 @@ I will be training the model and will update the repo soon.
 
 ## Usage
 
-Clone the repository, change your present working directory to the cloned directory, Now create a now folder in this directory named `images` to save the generated images after every sampled interval and now train the model. Below commands accomplishes these steps.
+Clone the repository, change your present working directory to the cloned directory. Now create a folder in this directory named `images` to save the generated images after every sampled interval and now train the model. Below commands accomplishes these steps.
 
 ```
 $ git clone https://github.com/manideep2510/DCGAN_LSUN.git
@@ -38,7 +38,7 @@ $ python dcgan_LSUN.py
 
 Download the dataset from [this link](https://www.kaggle.com/jhoward/lsun_bedroom/home).
 
-In the [`dcgan_LSUN.py`](dcgan_LSUN.py) code when we are reading the images into a numpy array, take care of the images path carefully. You will be required to change that part of code as your paths for the images would be diffirent than mine.
+In the [`dcgan_LSUN.py`](dcgan_LSUN.py) code when we are reading the images into a numpy array, take care of the images path carefully. You will be required to change that part of code as your paths for the images would be different than mine.
 
 ## Architecture
 
